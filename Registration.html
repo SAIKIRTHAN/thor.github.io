@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body bgcolor="#FFE8D6">
+    <form action="https://thetapacademy.com/">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="">firstName</label>
+        <input type="text" id="fname" required name="fname"><br><br>
+        <label for="">lastName</label>
+        <input type="text" name="lname" id="lname"><br><br>
+        <label for="">Age</label>
+        <input type="number" required name="age" id="age"><br><br>
+        <label for="">Email</label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="">DOB</label>
+        <input type="date" name="dob" id="dob" required><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Education Details</legend>
+        <label for="">College Name</label>
+        <input type="text" name="College Name"><br><br>
+        <label for="">Department</label><br><br>
+        <input type="radio" id="CS" name="dept">
+        <label for="">CS</label><br><br>
+        <input type="radio" id="ECE" name="dept">
+        <label for="">ECE</label><br><br>
+        <input type="radio" id="Civil" name="dept">
+        <label for="">Civil</label><br><br>
+        <input type="radio" id="Mech" name="dept">
+        <label for="">Mech</label><br><br>
+        <label for="">YOP</label>
+        <input list="yop" id="yog" name="yog">
+        <datalist id="yop">
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            
+        </datalist><br><br>
+        <label for="">Skills</label><br><br>
+        <input type="checkbox" id="HTML" name="HTML">
+        <label for="">HTML</label><br><br>
+        <input type="checkbox" id="Java" name="Java">
+        <label for="">Java</label><br><br>
+        <input type="checkbox" id="Python" name="Python">
+        <label for="">Python</label><br><br>
+        <input type="checkbox" id="SQL" name="SQL">
+        <label for="">SQL</label><br><br>
+        <input type="checkbox" id="JavaScript" name="JavaScript">
+        <label for="">JavaScript</label><br><br>
+        <center><button>submit</button></center>
+    </fieldset>
+    </form>
+</body>
+</html>
